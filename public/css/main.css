@@ -1,0 +1,34 @@
+*{
+    border: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+body,
+html{
+    height: 100%;
+    width: 100%;
+}
+input,
+textarea,
+button{
+    outline-color: transparent !important;
+    outline-style: none !important;
+}
+/*Classes*/
+.center{
+    text-align: center;
+}
+.lighter{
+    font-weight: lighter;
+}
+.full-height{
+    height: 100%;
+}
+.full-width{
+    width: 100%;
+}

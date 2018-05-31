@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title MyChat App
+        link(rel="stylesheet", href="/css/main.css")
+        link(rel="stylesheet", href="/css/chat.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    body
+        #container.full-height.full-width
+            #chat-area.full-width
+                #messages.full-height
+                    #msg-list
+                #users-list.full-height
+                    h2 Usuarios en línea
+                    #users
+            form#send-msg-form.full-width
+                textarea#message.lighter(name="message",placeholder="Escribe aquí tu mensaje...")
+                button#send-msg-btn
+                    i.fa.fa-paper-plane

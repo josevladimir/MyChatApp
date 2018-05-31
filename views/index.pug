@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title My Chat App
+        link(rel="stylesheet", href="/css/main.css")
+        link(rel="stylesheet", href="/css/index.css")
+    body
+        #welcome(class="full-height full-width")
+            form#registro-form(action="http://localhost:3000/chat", method="POST")
+                h1(class="center") Bienvenido!
+                p(class="center lighter") Ingresa tus datos, por favor:
+                input#username(type="text", name="username",placeholder="Tu usuario aquí...", class="full-width", required=true)
+                div 
+                    input#male(type="radio", name="sex", value="Male", checked=true)
+                    label(class="lighter", for="male") Hombre
+                    input#female(type="radio", name="sex", value="Female")
+                    label(class="lighter", for="female") Mujer
+                button#send-form(class="lighter") INGRESAR

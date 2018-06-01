@@ -46,3 +46,13 @@
 #registro-form input[type="radio"]{
     margin-right: 5px;
 }
+#registro-warning{
+    background: rgba(255,0,0,.5);
+    border: 1px solid red;
+    margin-top: 10px;
+    padding: 2.5px;
+}
+#warning-icon{
+    color: yellow;
+    margin-right: 10px;
+}

@@ -52,3 +52,40 @@
     cursor: pointer;
     background: rgb(75, 75, 75);
 }
+/*Usuarios en Linea*/
+.user{
+    margin: 10px 0px;
+}
+.online-icon{
+    color: rgb(15, 250, 7);
+    margin-right: 10px;
+}
+/*Mensajes*/
+.my-msg{
+    justify-content: flex-end;
+}
+.my-style-m{
+    background: rgb(191, 202, 233);
+    border: 1px solid rgb(79, 79, 187);
+    color: rgb(0, 0, 0);
+}
+.my-style-f{
+    background: rgb(233, 191, 224);
+    border: 1px solid rgb(187, 79, 182);
+    color: rgb(0, 0, 0);
+}
+.blue{
+    background: rgb(70, 104, 216);
+    border: 1px solid blue;
+    color: #fff;
+}
+.pink{
+    background: rgb(252, 114, 114);
+    border: 1px solid rgb(255, 60, 93);
+}
+.message{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow-x: auto;
+    padding: 10px;
+}

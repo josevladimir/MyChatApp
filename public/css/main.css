@@ -26,9 +26,26 @@ button{
 .lighter{
     font-weight: lighter;
 }
+.flex{
+    display: flex;
+}
 .full-height{
     height: 100%;
 }
 .full-width{
     width: 100%;
+}
+.titilando{
+    animation: titilar 1.5s infinite;
+}
+
+/*Animations*/
+@keyframes titilar{
+    0%{
+        opacity: 0;
+    }50%{
+        opacity: 1;
+    }100%{
+        opacity: 0;
+    }
 }
